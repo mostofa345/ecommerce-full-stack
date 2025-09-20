@@ -2,7 +2,7 @@
 
 const express = require("express");
 const Review = require("../models/Review");
-const Product = require("../models/Product"); // Assuming your Product model is here
+const Product = require("../models/product"); // Assuming your Product model is here
 const { protect } = require("../middleware/authMiddleware"); // Assuming you have authentication middleware
 
 const router = express.Router();
