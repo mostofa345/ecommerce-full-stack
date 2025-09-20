@@ -1,7 +1,7 @@
 const { validationResult } = require("express-validator");
 const bcrypt = require("bcryptjs");
 const User = require("../models/User");
-const { generateToken } = require("../utils/token");
+const { generateToken } = require("../utils/Token");
 
 // ------------------ Client Signup ------------------
 exports.signupUser = async (req, res) => {
