@@ -1,6 +1,6 @@
 const bcrypt = require("bcryptjs");
 const User = require("../models/User");
-const { generateToken } = require("../utils/token");
+const { generateToken } = require("../utils/Token");
 
 exports.adminSignup = async (req, res) => {
   // তোমার signup logic এখানে
